@@ -1,0 +1,9 @@
+{
+  "name": "neoki-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx serve public",
+    "build": "echo 'Static site - no build needed'"
+  }
+}

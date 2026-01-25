@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サポート - Neoki</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌅</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', sans-serif;
+            background: #0f172a;
+            color: #fff;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container { max-width: 640px; margin: 0 auto; }
+        .back { color: #818cf8; text-decoration: none; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 32px; }
+        .back:hover { text-decoration: underline; }
+        h1 { font-size: 36px; margin-bottom: 8px; }
+        .subtitle { color: #64748b; margin-bottom: 40px; }
+        .card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 28px;
+            margin-bottom: 20px;
+        }
+        h2 { font-size: 18px; margin-bottom: 12px; color: #818cf8; }
+        p { color: #94a3b8; line-height: 1.8; margin-bottom: 12px; }
+        a { color: #818cf8; }
+        .contact-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
+        }
+        .faq-item { border-bottom: 1px solid rgba(255,255,255,0.06); padding: 20px 0; }
+        .faq-item:last-child { border-bottom: none; padding-bottom: 0; }
+        .faq-item h3 { font-size: 15px; margin-bottom: 8px; color: #e2e8f0; }
+        .faq-item p { font-size: 14px; margin-bottom: 0; color: #64748b; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">← ホームに戻る</a>
+        <h1>サポート</h1>
+        <p class="subtitle">Neokiに関するお問い合わせ</p>
+
+        <div class="card">
+            <h2>お問い合わせ</h2>
+            <p>ご質問、不具合報告、ご要望などがございましたら、お気軽にお問い合わせください。</p>
+            <a href="mailto:support@neoki.app" class="contact-btn">メールで問い合わせる</a>
+        </div>
+
+        <div class="card">
+            <h2>よくある質問</h2>
+
+            <div class="faq-item">
+                <h3>Q. アカウントを削除したい</h3>
+                <p>プロフィール画面の右上メニューからアカウント削除をリクエストできます。または、メールでお問い合わせください。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q. 通知が届かない</h3>
+                <p>端末の設定 > Neoki > 通知 から通知を許可してください。また、アプリ内の通知設定もご確認ください。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q. 友達を追加できない</h3>
+                <p>友達タブから相手の@IDを検索するか、QRコードを読み取って追加できます。相手が承認すると友達になります。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q. 写真が投稿できない</h3>
+                <p>カメラと写真ライブラリへのアクセス許可が必要です。端末の設定からNeokiのアクセス許可をご確認ください。</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Q. 退会後のデータはどうなりますか？</h3>
+                <p>アカウント削除後、すべてのデータ（投稿、コメント、友達関係）は完全に削除されます。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
